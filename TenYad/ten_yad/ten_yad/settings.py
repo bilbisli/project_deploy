@@ -36,12 +36,8 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.herokuapp.com'
-    'tenyadd.herokuapp.com'
-    '*',
-    '127.0.0.1',
-    '127.0.0.1:8000',
-    'localhost',
+    'http://bilbisli.pythonanywhere.com/',
+    'bilbisli.pythonanywhere.com'
     ]
 #
 # CSRF_COOKIE_SECURE = True
